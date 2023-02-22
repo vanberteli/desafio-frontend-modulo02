@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    min-width: 1000px;
+    min-width: 960px;
     max-width: 1110px;
     margin: 0 164px;
 }
@@ -41,6 +41,22 @@ header a {
 
 .menu .active {
     color: #5FB4A2;
+}
+
+.interested {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    margin: 115px 0;
+}
+
+.interested h2 {
+    width: 384px;
+}
+
+.interested a {
+    width: 168px;
 }
 
 footer {
